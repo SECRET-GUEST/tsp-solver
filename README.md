@@ -24,9 +24,10 @@ The L-BFGS-B algorithm is particularly useful when the number of variables in th
 
 The algorithm was developed by Ciyou Zhu, Richard Byrd, Jorge Nocedal, and Jose Luis Morales. You can find the original paper describing the L-BFGS-B algorithm here:
 
-L-BFGS-B: Algorithm 778: L-BFGS-B, FORTRAN routines for large scale bound constrained optimization
+https://dl.acm.org/doi/10.1145/279232.279236
+
 For more information and resources on L-BFGS and L-BFGS-B algorithms, you can check out the following links:
 
-L-BFGS Wikipedia page
-Jorge Nocedal's homepage, one of the authors of the L-BFGS-B algorithm
-Scipy's documentation on L-BFGS-B
+https://en.wikipedia.org/wiki/Limited-memory_BFGS
+http://users.iems.northwestern.edu/~nocedal/, one of the authors of the L-BFGS-B algorithm
+https://docs.scipy.org/doc/scipy/reference/optimize.minimize-lbfgsb.html
