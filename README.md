@@ -29,5 +29,7 @@ https://dl.acm.org/doi/10.1145/279232.279236
 For more information and resources on L-BFGS and L-BFGS-B algorithms, you can check out the following links:
 
 https://en.wikipedia.org/wiki/Limited-memory_BFGS
+
 http://users.iems.northwestern.edu/~nocedal/, one of the authors of the L-BFGS-B algorithm
+
 https://docs.scipy.org/doc/scipy/reference/optimize.minimize-lbfgsb.html
