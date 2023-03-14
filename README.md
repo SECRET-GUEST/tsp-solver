@@ -10,6 +10,17 @@ ___ ____ ___     ____ _    ____ ____ ____ _ ___ _  _ _  _
 
 Just playing with GPT-4 with solving random crypto algorithms such as **P = NP** or other cryptographic problems to rule the wolrdlrd in the sh4d0w. Don't thx me it's for the buzz lol^^<3
 
+# The Adaptive TSP Solver (ATS)
+
+The Adaptive TSP Solver (ATS) is a novel hybrid approach designed to efficiently solve the Traveling Salesman Problem by leveraging the strengths of various techniques. ATS combines elements from exact methods, heuristics, and metaheuristics to strike a balance between solution quality and computational time. It employs a hierarchical structure that initially uses a fast, greedy heuristic (e.g., nearest neighbor or minimum spanning tree) to generate an initial solution. This solution is then refined by applying local search methods, such as 2-opt or 3-opt, to further improve its quality.
+
+To address the challenge of finding a globally optimal solution, ATS integrates population-based search algorithms like Genetic Algorithms or Ant Colony Optimization. These metaheuristics help the algorithm escape local optima and explore the solution space more effectively. Additionally, ATS incorporates adaptive mechanisms to dynamically adjust its parameters and search strategies based on the problem instance and the progress of the search.
+
+Overall, the Adaptive TSP Solver is designed to provide good-quality solutions for various TSP instances within a reasonable time frame, without guaranteeing optimality. It is well-suited for large-scale problems where a trade-off between solution quality and computational time is desired.
+
+This method has been created by GPT-4 under my direction.
+
+
 #  "Ant Colony Optimization" (ACO)
 
 The scripts called "Ant Colony Optimization" (ACO) is an optimization method inspired by the behavior of ants when searching for a path between their colony and a food source. The algorithm uses pheromones to simulate the communication and exploration behavior of ants in nature.
