@@ -17,6 +17,8 @@ Here there are 2 methods ;
 * The Adaptative TSP Solver (ATS)
 * Refined Adaptive TSP Solver (RATS)
 
+These methods has been created by GPT-4 under my direction.
+
 ## The Adaptative TSP Solver (ATS)
 
 The Adaptative TSP Solver (ATS) is a novel algorithm designed to solve the Traveling Salesman Problem (TSP). The TSP is an NP-hard optimization problem, where a salesman needs to visit a set of cities while minimizing the total travel distance and returning to the starting city. The ATS combines various heuristic methods, including a greedy initial solution, local search optimization techniques such as 2-opt and 3-opt, and a genetic algorithm to explore the solution space efficiently.
