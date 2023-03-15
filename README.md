@@ -29,12 +29,12 @@ This algorithm solves the Traveling Salesman Problem using Guided Local Search (
 
 #  "Ant Colony Optimization" (ACO)
 
-The scripts called "Ant Colony Optimization" (ACO) is an optimization method inspired by the behavior of ants when searching for a path between their colony and a food source. The algorithm uses pheromones to simulate the communication and exploration behavior of ants in nature.
+The Ant Colony Optimization (ACO) algorithm is a metaheuristic inspired by the foraging behavior of ants in nature. It is primarily used to solve combinatorial optimization problems, such as the Traveling Salesman Problem (TSP). In ACO, artificial ants iteratively construct solutions by stochastically choosing the next element based on pheromone levels and heuristic information. The pheromone levels are updated by ants to reflect the quality of the solutions found, and they evaporate over time to avoid convergence to a suboptimal solution. The algorithm balances exploration and exploitation to find an optimal or near-optimal solution.
+
 
 There are 2 script one with a graphical representation the other with only the answer in a terminal.
 
 
-The Ant Colony Optimization (ACO) algorithm is a metaheuristic inspired by the foraging behavior of ants in nature. It is primarily used to solve combinatorial optimization problems, such as the Traveling Salesman Problem (TSP). In ACO, artificial ants iteratively construct solutions by stochastically choosing the next element based on pheromone levels and heuristic information. The pheromone levels are updated by ants to reflect the quality of the solutions found, and they evaporate over time to avoid convergence to a suboptimal solution. The algorithm balances exploration and exploitation to find an optimal or near-optimal solution.
 
 
 
