@@ -33,7 +33,7 @@ where R is the Earth's radius (approximately 6,371 km), and
 
 with dlat = lat2 - lat1 and dlon = lon2 - lon1.
 
-The ATS algorithm consists of the following steps:
+### The ATS algorithm consists of the following steps:
 
 1.Generate a greedy initial solution using a nearest-neighbor algorithm provided by the tsp_solver2.greedy package. This heuristic aims to find a short route by sequentially visiting the nearest unvisited city.
 
@@ -73,7 +73,7 @@ where R is the Earth's radius (approximately 6,371 km), and
 
 with dlat = lat2 - lat1 and dlon = lon2 - lon1.
 
-The RATS algorithm consists of the following steps:
+### The RATS algorithm consists of the following steps:
 
 1. Generate a greedy initial solution using a nearest-neighbor algorithm provided by the tsp_solver2.greedy package. This heuristic aims to find a short route by sequentially visiting the nearest unvisited city.
 
@@ -103,25 +103,35 @@ The RATS algorithm is a streamlined version of the ATS algorithm, omitting the 3
 
 # Guided Local Search (GLS)
 
-Guided Local Search (GLS) is a metaheuristic algorithm for combinatorial optimization problems, such as the Traveling Salesman Problem (TSP). 
+This algorithm presents a Guided Local Search (GLS) approach to solve the Traveling Salesman Problem (TSP) using the Haversine distance formula, nearest neighbor heuristic, and 2-opt optimization.
 
-The algorithm uses local search methods and adds a penalty term to guide the search process towards better solutions.
-
-In the case of the TSP, the GLS aims to find the shortest route that visits all the cities exactly once and returns to the starting city.
+The Haversine distance formula is used to calculate the great-circle distance between two points on a sphere, given their latitude and longitude coordinates:
 
 
-Calculate the Haversine distance between all pairs of coordinates to create a distance matrix.
-Use the nearest neighbor heuristic to generate an initial solution (route) based on the distance matrix.
+`d = 2 * R * atan2(sqrt(a), sqrt(1 - a))`
 
-Apply the 2-opt optimization to the initial solution to improve the route.
+Where d is the distance between two points, R is the Earth's radius (approximately 6,371 km), and a is calculated as follows:
 
-Perform local search using a tabu list (a list of prohibited moves) to avoid cycling and revisiting previously visited solutions.
-Add penalties to the distance matrix based on the current route to guide the search towards better solutions.
-Repeat the local search and penalty updates for a fixed number of iterations (max_iterations).
+`a = sin²(dlat/2) + cos(lat1) * cos(lat2) * sin²(dlon/2)`
+dlat and dlon are the differences in latitudes and longitudes, respectively, between the two points.
 
+The algorithm initializes the solution using the nearest neighbor heuristic, followed by a 2-opt optimization to refine the solution. The guided local search is then performed using an augmented distance matrix with penalty values, and a tabu list to prevent cycling through previously visited solutions.
 
+### The GLS algorithm performs the following steps:
 
+1. Create a distance matrix using the Haversine distance formula.
 
+2. Generate an initial solution using the nearest neighbor heuristic.
+
+3. Apply the 2-opt optimization to the initial solution.
+
+4. Perform local search using the augmented distance matrix and tabu list.
+
+5. Update the penalties and tabu list based on the obtained solution.
+
+6. Repeat steps 4-5 for the specified number of iterations.
+
+The output is the optimal route found by the algorithm, represented as a list of indices corresponding to the input coordinates.
 
 
 
