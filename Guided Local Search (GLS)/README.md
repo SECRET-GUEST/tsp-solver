@@ -20,6 +20,7 @@ The Haversine distance formula is used to calculate the great-circle distance be
 Where d is the distance between two points, R is the Earth's radius (approximately 6,371 km), and a is calculated as follows:
 
 `a = sin²(dlat/2) + cos(lat1) * cos(lat2) * sin²(dlon/2)`
+
 dlat and dlon are the differences in latitudes and longitudes, respectively, between the two points.
 
 The algorithm initializes the solution using the nearest neighbor heuristic, followed by a 2-opt optimization to refine the solution. The guided local search is then performed using an augmented distance matrix with penalty values, and a tabu list to prevent cycling through previously visited solutions.
