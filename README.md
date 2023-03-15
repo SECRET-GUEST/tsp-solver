@@ -17,7 +17,7 @@ Here there are 2 methods ;
 * The Adaptative TSP Solver (ATS)
 * Refined Adaptive TSP Solver (RATS)
 
-### The Adaptative TSP Solver (ATS)
+## The Adaptative TSP Solver (ATS)
 
 The Adaptative TSP Solver (ATS) is a novel algorithm designed to solve the Traveling Salesman Problem (TSP). The TSP is an NP-hard optimization problem, where a salesman needs to visit a set of cities while minimizing the total travel distance and returning to the starting city. The ATS combines various heuristic methods, including a greedy initial solution, local search optimization techniques such as 2-opt and 3-opt, and a genetic algorithm to explore the solution space efficiently.
 
@@ -57,7 +57,7 @@ The ATS algorithm is designed to adapt to the problem instance, balancing explor
 
 
 
-### Refined Adaptive TSP Solver (RATS)
+## Refined Adaptive TSP Solver (RATS)
 
 Introducing the "Refined Adaptive TSP Solver" (RATS), a variant of the original Adaptive TSP Solver (ATS) algorithm designed to solve the Traveling Salesman Problem (TSP). The RATS algorithm combines various heuristic methods, including a greedy initial solution, local search optimization techniques such as 2-opt, and a genetic algorithm to explore the solution space efficiently.
 
@@ -91,6 +91,14 @@ The RATS algorithm is a streamlined version of the ATS algorithm, omitting the 3
 
 
 
+
+
+
+
+
+
+
+
 # Guided Local Search (GLS)
 
 Guided Local Search (GLS) is a metaheuristic algorithm for combinatorial optimization problems, such as the Traveling Salesman Problem (TSP). The algorithm uses local search methods and adds a penalty term to guide the search process towards better solutions. In the case of the TSP, the GLS aims to find the shortest route that visits all the cities exactly once and returns to the starting city.
@@ -104,11 +112,27 @@ Perform local search using a tabu list (a list of prohibited moves) to avoid cyc
 Add penalties to the distance matrix based on the current route to guide the search towards better solutions.
 Repeat the local search and penalty updates for a fixed number of iterations (max_iterations).
 
+
+
+
+
+
+
+
+
 #  "Ant Colony Optimization" (ACO)
 
 The scripts called "Ant Colony Optimization" (ACO) is an optimization method inspired by the behavior of ants when searching for a path between their colony and a food source. The algorithm uses pheromones to simulate the communication and exploration behavior of ants in nature.
 
 There are 2 script one with a graphical representation the other with only the answer in a terminal.
+
+
+
+
+
+
+
+
 
 # L-BFGS-B
 
