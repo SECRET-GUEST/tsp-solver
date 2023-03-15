@@ -44,9 +44,9 @@ https://docs.scipy.org/doc/scipy/reference/optimize.minimize-lbfgsb.html
 
 1. Define the objective function to minimize, which is the total distance of a route:
 
-`f(x) = Σ (distance_matrix[route[i], route[i+1]])`
+    - `f(x) = Σ (distance_matrix[route[i], route[i+1]])`
 
-where `x` is a permutation of the city indices and `distance_matrix[i, j]` represents the distance between cities `i` and `j`.
+    - > where `x` is a permutation of the city indices and `distance_matrix[i, j]` represents the distance between cities `i` and `j`.
 
 2. Set the initial solution `x0` as a random permutation of city indices.
 
