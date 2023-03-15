@@ -1,11 +1,16 @@
-`P=NP` ? merely a question of time
 ```
-___ ____ ___     ____ _    ____ ____ ____ _ ___ _  _ _  _ 
- |  [__  |__]    |__| |    | __ |  | |__/ |  |  |__| |\/| 
- |  ___] |       |  | |___ |__] |__| |  \ |  |  |  | |  | 
+████████╗   ███████╗   ██████╗         █████╗ ██╗      ██████╗  ██████╗ ██████╗ ██╗████████╗██╗  ██╗███╗   ███╗███████╗
+╚══██╔══╝   ██╔════╝   ██╔══██╗       ██╔══██╗██║     ██╔════╝ ██╔═══██╗██╔══██╗██║╚══██╔══╝██║  ██║████╗ ████║██╔════╝
+   ██║      ███████╗   ██████╔╝       ███████║██║     ██║  ███╗██║   ██║██████╔╝██║   ██║   ███████║██╔████╔██║███████╗
+   ██║      ╚════██║   ██╔═══╝        ██╔══██║██║     ██║   ██║██║   ██║██╔══██╗██║   ██║   ██╔══██║██║╚██╔╝██║╚════██║
+   ██║   ██╗███████║██╗██║     ██╗    ██║  ██║███████╗╚██████╔╝╚██████╔╝██║  ██║██║   ██║   ██║  ██║██║ ╚═╝ ██║███████║
+   ╚═╝   ╚═╝╚══════╝╚═╝╚═╝     ╚═╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
+                                                                                                                       
                                                           
 ```                            
-                            
+
+`P=NP` ? merely a question of time
+
 # Introduction                            
 
 In this study, we explore various optimization techniques to tackle the Traveling Salesman Problem (TSP). We investigate the performance of different algorithms, including the Adaptive TSP Solver (ATS), Ant Colony Optimization (ACO), Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS-B), and Guided Local Search (GLS). By comparing their effectiveness and computational efficiency, we aim to identify the most suitable approach for solving TSP instances.
