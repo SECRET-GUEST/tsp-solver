@@ -8,7 +8,7 @@ ___ ____ ___     ____ _    ____ ____ ____ _ ___ _  _ _  _
                             
 # Introduction                            
 
-Just playing with GPT-4 with solving random crypto algorithms such as **P = NP** or other cryptographic problems to rule the wolrdlrd in the sh4d0w. Don't thx me it's for the buzz lol^^<3
+In this study, we explore various optimization techniques to tackle the Traveling Salesman Problem (TSP). We investigate the performance of different algorithms, including the Adaptive TSP Solver (ATS), Ant Colony Optimization (ACO), Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS-B), and Guided Local Search (GLS). By comparing their effectiveness and computational efficiency, we aim to identify the most suitable approach for solving TSP instances.
 
 # The Adaptive TSP Solver (ATS)
 
