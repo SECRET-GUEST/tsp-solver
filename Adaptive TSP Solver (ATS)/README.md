@@ -34,13 +34,13 @@ with dlat = lat2 - lat1 and dlon = lon2 - lon1.
 
 4. Apply a genetic algorithm to the population, which consists of the following steps:
 
-   - a.Compute the population diversity, defined as the ratio of unique individuals to the total population size.
+   - a. Compute the population diversity, defined as the ratio of unique individuals to the total population size.
 
    - Adapt the mutation rate based on the population diversity to maintain a balance between exploration and exploitation. If the diversity is below a threshold, increase the mutation rate by a factor.
 
-   - b.Perform crossover and mutation operations to generate a new population. The crossover operation combines two parent routes by selecting a random subsequence from one parent and filling the remaining positions with cities from the other parent in their original order.
+   - b. Perform crossover and mutation operations to generate a new population. The crossover operation combines two parent routes by selecting a random subsequence from one parent and filling the remaining positions with cities from the other parent in their original order.
 
-   - c.Repeat steps a-c for a predefined number of iterations.
+   - c. Repeat steps a-c for a predefined number of iterations.
 
 5. Return the best route found by the genetic algorithm as the final solution.
 
@@ -74,9 +74,9 @@ with dlat = lat2 - lat1 and dlon = lon2 - lon1.
 
 4. Apply a genetic algorithm to the population, which consists of the following steps:
 
-   - a.Perform crossover and mutation operations to generate a new population. The crossover operation combines two parent routes by selecting a random subsequence from one parent and filling the remaining positions with cities from the other parent in their original order.
+   - a. Perform crossover and mutation operations to generate a new population. The crossover operation combines two parent routes by selecting a random subsequence from one parent and filling the remaining positions with cities from the other parent in their original order.
 
-   - b.Repeat step a for a predefined number of iterations.
+   - b. Repeat step a for a predefined number of iterations.
 
 5.Return the best route found by the genetic algorithm as the final solution.
 
