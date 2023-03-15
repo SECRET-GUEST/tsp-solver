@@ -103,13 +103,18 @@ The RATS algorithm is a streamlined version of the ATS algorithm, omitting the 3
 
 # Guided Local Search (GLS)
 
-Guided Local Search (GLS) is a metaheuristic algorithm for combinatorial optimization problems, such as the Traveling Salesman Problem (TSP). The algorithm uses local search methods and adds a penalty term to guide the search process towards better solutions. In the case of the TSP, the GLS aims to find the shortest route that visits all the cities exactly once and returns to the starting city.
+Guided Local Search (GLS) is a metaheuristic algorithm for combinatorial optimization problems, such as the Traveling Salesman Problem (TSP). 
 
-The code you provided follows these steps:
+The algorithm uses local search methods and adds a penalty term to guide the search process towards better solutions.
+
+In the case of the TSP, the GLS aims to find the shortest route that visits all the cities exactly once and returns to the starting city.
+
 
 Calculate the Haversine distance between all pairs of coordinates to create a distance matrix.
 Use the nearest neighbor heuristic to generate an initial solution (route) based on the distance matrix.
+
 Apply the 2-opt optimization to the initial solution to improve the route.
+
 Perform local search using a tabu list (a list of prohibited moves) to avoid cycling and revisiting previously visited solutions.
 Add penalties to the distance matrix based on the current route to guide the search towards better solutions.
 Repeat the local search and penalty updates for a fixed number of iterations (max_iterations).
