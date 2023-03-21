@@ -53,3 +53,13 @@ There are 4 scripts: 2 of them utilize the Google Maps API to solve the TSP, one
 
 4. "TSP_solver_comparison.py": Evaluates performance of multiple TSP algorithms, comparing L-BFGS-B, genetic algorithm, and Google Maps API, with analysis on time and quality.
 
+
+## :scroll: License
+
+This repository is released under the [MIT License](LICENSE). Please see the `LICENSE` file for more information.
+
+## :question: Support & Questions
+
+If you have any questions or need support, please feel free to open an issue or join my twitter.
+
+
