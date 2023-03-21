@@ -32,7 +32,7 @@ These methods has been created by GPT-4 under my direction.
 This algorithm solves the Traveling Salesman Problem using Guided Local Search (GLS). It employs the Haversine distance, Nearest Neighbor heuristic, and 2-opt optimization to find a near-optimal solution iteratively. The output is an optimal route given as indices and coordinates.
 
 
-#  "Ant Colony Optimization" (ACO)
+#  Ant Colony Optimization (ACO)
 
 The Ant Colony Optimization (ACO) algorithm is a metaheuristic inspired by the foraging behavior of ants in nature. It is primarily used to solve combinatorial optimization problems, such as the Traveling Salesman Problem (TSP). In ACO, artificial ants iteratively construct solutions by stochastically choosing the next element based on pheromone levels and heuristic information. The pheromone levels are updated by ants to reflect the quality of the solutions found, and they evaporate over time to avoid convergence to a suboptimal solution. The algorithm balances exploration and exploitation to find an optimal or near-optimal solution.
 
