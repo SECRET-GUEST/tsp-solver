@@ -17,12 +17,10 @@ In this study, we explore various optimization techniques to tackle the Travelin
 
 # The Adaptive TSP Solver (ATS)
 
-Here there are 2 methods ;
+Here there are 2 new methods to solve the TSP more efficently that are made with GPT-4 under my direction ;
 
 * The Adaptative TSP Solver (ATS)
 * Refined Adaptive TSP Solver (RATS)
-
-These methods has been created by GPT-4 under my direction.
 
 
 
