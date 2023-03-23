@@ -9,7 +9,7 @@
                                                           
 ```                            
 
-`P=NP` ? merely a question of time
+`P=NP` ? Merely a question of time
 
 # Introduction                            
 
