@@ -13,11 +13,13 @@
 
 # Introduction                            
 
+The following methods have not been fully tested and may prove to be partially incorrect. I developed them with the assistance of GPT-4 during its beta testing phase, in order to assess the capabilities of the AI using my own knowledge. Therefore, the examples provided will need to be revised to make them more practically applicable.
+
 In this study, we explore various optimization techniques to tackle the Traveling Salesman Problem (TSP). We investigate the performance of different algorithms, including the Adaptive TSP Solver (ATS), Ant Colony Optimization (ACO), Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS-B), and Guided Local Search (GLS). By comparing their effectiveness and computational efficiency, we aim to identify the most suitable approach for solving TSP instances.
 
 # The Adaptive TSP Solver (ATS)
 
-Here there are 2 new methods to solve the TSP more efficently that are made with GPT-4 under my direction ;
+Here there are 2 new methods to solve the TSP more efficently that are made with GPT-4;
 
 * The Adaptative TSP Solver (ATS)
 * Refined Adaptive TSP Solver (RATS)
